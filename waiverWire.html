@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>BRITSports</title>
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    </head>
+
+    <body>
+        <h1>Waiver Wire Players Interested In</h1>
+
+        <main>
+            <section>
+                <h2>Add Player:</h2>
+                <form>
+                    <label for="waiverName">Player Name:</label>
+                    <input type="text" name="waiverName" id="waiverName" />
+
+                    <p>What position does the player play?</p>
+
+                    <label for="waiverPositionQb">Quarterback</label>
+                    <input type="radio" value="QB" name="waiverPosition" id="waiverPositionQb" />
+
+                    <label for="waiverPositionRb">Running Back</label>
+                    <input type="radio" value="RB" name="waiverPosition" id="waiverPositionRb" />
+
+                    <label for="waiverPositionWr">Wide Receiver</label>
+                    <input type="radio" value="WR" name="waiverPosition" id="waiverPositionWr" />
+
+                    <label for="waiverPositionTe">Tight End</label>
+                    <input type="radio" value="TE" name="waiverPosition" id="waiverPositionTe" />
+                    <br>
+                    <label for="waiverTeam">What team does the player play for?</label>
+                    <input type="text" name="waiverTeam" id="waiverTeam" />
+                </form>
+
+                <button id="addWaiverPlayer">Add Waiver Player</button>
+            </section>
+
+            <section>
+                <h2>Players already interested in:</h2>
+                <ul id="waiverList"></ul>
+            </section>
+        </main>
+
+        <footer>
+
+        </footer>
+
+        <script src="./assets/js/waiverWire.js"></script>
+    </body>
+</html>

@@ -11,3 +11,21 @@
 
 
 /* HOMEPAGE ============================================= */
+
+
+
+
+
+
+/* WAIVER PAGE ============================================= */
+#waiverList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#waiverList div {
+    background-color: green;
+    padding: 10px;
+    justify-content: space-evenly;
+    margin: 10px;
+}
