@@ -5,29 +5,33 @@
         <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
     </head>
 
-    <body>
+    <body class="waiverWire">
+        <navbar>
+            <li>BRIT INSERT NAVBAR HERE</li>
+        </navbar>
         <h1>Waiver Wire Players Interested In</h1>
 
         <main>
             <section>
                 <h2>Add Player:</h2>
+                <p>Instructions posted here</p>
                 <form>
                     <label for="waiverName">Player Name:</label>
                     <input type="text" name="waiverName" id="waiverName" />
 
                     <p>What position does the player play?</p>
 
-                    <label for="waiverPositionQb">Quarterback</label>
                     <input type="radio" value="QB" name="waiverPosition" id="waiverPositionQb" />
-
-                    <label for="waiverPositionRb">Running Back</label>
+                    <label for="waiverPositionQb">Quarterback</label>
+                    <br>
                     <input type="radio" value="RB" name="waiverPosition" id="waiverPositionRb" />
-
-                    <label for="waiverPositionWr">Wide Receiver</label>
+                    <label for="waiverPositionRb">Running Back</label>
+                    <br>
                     <input type="radio" value="WR" name="waiverPosition" id="waiverPositionWr" />
-
-                    <label for="waiverPositionTe">Tight End</label>
+                    <label for="waiverPositionWr">Wide Receiver</label>
+                    <br>
                     <input type="radio" value="TE" name="waiverPosition" id="waiverPositionTe" />
+                    <label for="waiverPositionTe">Tight End</label>
                     <br>
                     <label for="waiverTeam">What team does the player play for?</label>
                     <input type="text" name="waiverTeam" id="waiverTeam" />
