@@ -11,7 +11,14 @@
 
 
 /* HOMEPAGE ============================================= */
+.homepage main {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.homepage main div {
+    justify-content: space-evenly;
+}
 
 
 
@@ -22,7 +29,7 @@
     background-color: gray;
 }
 
-.waiverWire h1, h2 {
+.waiverWire h1, .waiverWire h2 {
     background-color: rgb(51, 218, 233);
     padding: 10px;
 }
@@ -36,7 +43,6 @@
     display: flex;
     flex-wrap: wrap;
 }
-
 
 #addWaiverPlayer {
     font-size: 20px;

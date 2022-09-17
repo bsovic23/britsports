@@ -10,7 +10,6 @@ saveWaiverListBtn = document.querySelector("click", saveList());
 // Button Load
 LoadWaiverListBtn = document.querySelector("click", loadList());
 
-
 // Button Function 
 function waiverSubmit() {
 
