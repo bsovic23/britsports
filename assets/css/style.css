@@ -7,6 +7,20 @@
     flex-wrap: wrap;
 }
 
+.logoBox img {
+    margin-left: 250px;
+    width: 300px;
+    height: 300px;
+}
+
+/* NEW USER =============================================== */
+.newUserForm {
+    background-color: green;
+    padding: 30px;
+    display: inline-block;
+}
+
+    
 
 
 
